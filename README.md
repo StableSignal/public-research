@@ -21,7 +21,32 @@ This repository keeps three layers separate:
 * [Observation 0001](notes/0001-arc-testnet-observations.md)
 * [Observation 0001 machine-readable snapshot](snapshots/pulse-v0-2026-07-31.json)
 
-Observation 0001 records the approved Pulse v0 QA capture, its bounded 20-block metrics, lookup fixtures, screenshot checksum, an independent RPC reconciliation, and the verified PulseBeacon deployment evidence.
+Observation 0001 records the approved Pulse v0 QA capture, its bounded 20-block metrics, lookup fixtures, screenshot checksum, an independent RPC reconciliation, the verified PulseBeacon deployment evidence, and the first published snapshot checkpoint.
+
+## Reproduce a recent-block capture
+
+Node.js 20 or newer can capture the same bounded metrics directly from the public Arc testnet RPC without installing dependencies:
+
+```powershell
+node .\tools\capture-pulse-snapshot.mjs --output .\snapshots\pulse-latest.json
+```
+
+The default window is the latest 20 contiguous blocks. For byte-stable reproduction, pin the head block; the output deliberately excludes the wall-clock generation time:
+
+```powershell
+node .\tools\capture-pulse-snapshot.mjs `
+  --head 54646241 `
+  --blocks 20 `
+  --output .\snapshots\pulse-block-54646241.json
+```
+
+The script confirms Arc testnet chain ID `5042002`, validates block continuity and parent hashes, and calculates total transactions, mean transactions per block, and ratio-of-sums gas utilization. It stores only the RPC host name in the snapshot. `ARC_TESTNET_RPC_URL` or `--rpc-url` may select another Arc testnet RPC.
+
+Run its dependency-free tests with:
+
+```powershell
+node --test .\test\capture-pulse-snapshot.test.mjs
+```
 
 ## Publication standard
 
