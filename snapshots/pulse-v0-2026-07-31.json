@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "recordType": "pulse-v0-release-observation",
+  "network": {
+    "name": "Arc Testnet",
+    "chainId": 5042002,
+    "rpcHost": "rpc.testnet.arc.network",
+    "explorer": "https://testnet.arcscan.app"
+  },
+  "capture": {
+    "dataLoadedAtUtc": "2026-07-31T19:52:07Z",
+    "fileSavedAtUtc": "2026-07-31T19:52:24.7819425Z",
+    "browser": "Microsoft Edge through the browser-control extension",
+    "requestedViewport": "1440x1000",
+    "measuredCssViewport": "1425x1000",
+    "screenshotPixels": "1425x990"
+  },
+  "releaseCandidate": {
+    "name": "Pulse v0",
+    "baseCommit": "1ae911bec1846e21083a2bcffbc4bef2a2cd452a",
+    "workingTreeState": "QA fixes were uncommitted at capture time"
+  },
+  "screenshot": {
+    "publicPath": "https://stablesignal.github.io/assets/screenshots/pulse-v0-2026-07-31.png",
+    "mediaType": "image/png",
+    "width": 1425,
+    "height": 990,
+    "sha256": "25d4cf1051af4ac0f3eafe3c0a6569f3e8902a1ff65c20b6d0da155624b76eb7",
+    "note": "The browser capture was losslessly normalized from JPEG bytes to a PNG file after QA; the visual content is unchanged."
+  },
+  "window": {
+    "firstBlock": 54646222,
+    "lastBlock": 54646241,
+    "blockCount": 20,
+    "totalTransactions": 176,
+    "meanTransactionsPerBlock": 8.8,
+    "sumGasUsed": 31262354,
+    "sumGasLimit": 600000000,
+    "gasUtilizationRatio": 0.05210392333333334,
+    "gasUtilizationPercent": 5.210392333333334
+  },
+  "headBlock": {
+    "number": 54646241,
+    "hash": "0x219be1df5882c55ec1dd9c61b1a42d8917aeef2acc9a8dea3112936bfce0ba78",
+    "parentHash": "0x12c7be27797caf354f0f030db6457b962da5f5f476a0ea34141ad50f8f5d03df",
+    "timestampUtc": "2026-07-31T19:52:06Z",
+    "transactionCount": 11,
+    "gasUsed": 2193890,
+    "gasLimit": 30000000,
+    "freshnessSecondsAtDisplayedUpdate": 1,
+    "explorerUrl": "https://testnet.arcscan.app/block/54646241"
+  },
+  "lookupChecks": {
+    "wallet": {
+      "address": "0x95BBab0a10a247f46716081A6311fbf8345AbCE2",
+      "balanceUsdc": "20",
+      "transactionCount": 0,
+      "accountType": "externally owned account"
+    },
+    "contract": {
+      "address": "0x89B50855Aa3bE2F677cD6303Cec089B5F319D72a",
+      "balanceUsdc": "832.654694",
+      "transactionCount": 1,
+      "runtimeBytecodeBytes": 1798
+    }
+  },
+  "pulseBeacon": {
+    "status": "verified",
+    "address": "0x13FBc37C40d071d9654913013C93a63F9Dc770D3",
+    "deploymentTransactionHash": "0x34294c78a7062f1088724d2017149d2531c6a522c666304c09e950694338ebf0",
+    "deploymentBlockNumber": 54976300,
+    "deployedAtUtc": "2026-08-02T18:37:09Z",
+    "publisher": "0x95BBab0a10a247f46716081A6311fbf8345AbCE2",
+    "runtimeCodeBytes": 1014,
+    "transactionReceiptStatus": 1,
+    "explorerIndexed": true,
+    "transactionExplorerUrl": "https://testnet.arcscan.app/tx/0x34294c78a7062f1088724d2017149d2531c6a522c666304c09e950694338ebf0",
+    "contractExplorerUrl": "https://testnet.arcscan.app/address/0x13FBc37C40d071d9654913013C93a63F9Dc770D3"
+  },
+  "reconciliation": {
+    "status": "passed",
+    "method": "The fixed block range was re-read from the public Arc testnet RPC and the transaction and gas totals were recomputed from integer values.",
+    "scope": "Point-in-time testnet evidence; not a historical trend or production-service claim."
+  }
+}
