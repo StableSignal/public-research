@@ -1,6 +1,6 @@
 # Arc testnet observations 0001: Pulse v0 release baseline
 
-**Status:** Release evidence verified
+**Status:** Release evidence verified; snapshot checkpoint published
 
 **Network:** Arc Testnet (`5042002`)
 
@@ -66,6 +66,18 @@ PulseBeacon is a separate public proof artifact and is not required for Pulse to
 
 The same values are recorded in the StableSignal public hub's machine-readable Arc testnet deployment registry.
 
+## PulseBeacon snapshot checkpoint
+
+The exact snapshot bytes from public-research commit `b2467a2e0008941c9dd1370426f9c6a886415d63` are anchored by the first PulseBeacon checkpoint:
+
+* SHA-256 digest: `0xbeae9dc6916516bd71591dfc2038e013a6a715f3b5ff0fc05e40eb943b71c00d`
+* Commit-pinned source: [`pulse-v0-2026-07-31.json`](https://raw.githubusercontent.com/StableSignal/public-research/b2467a2e0008941c9dd1370426f9c6a886415d63/snapshots/pulse-v0-2026-07-31.json)
+* Checkpoint transaction: [`0xe097a6ec452a215f6733751149f412928022547da95b554c1252e1504c3e99ae`](https://testnet.arcscan.app/tx/0xe097a6ec452a215f6733751149f412928022547da95b554c1252e1504c3e99ae)
+* Block: `54,994,297` at `2026-08-02T21:10:55Z`
+* Receipt status: `1`
+
+The emitted event digest matches the SHA-256 digest above. The digest is calculated from the immutable Git blob served by the commit-pinned raw URL; a working-tree copy may hash differently if a Git client rewrites line endings.
+
 ## Publication gate
 
 * [x] UTC capture times recorded.
@@ -76,6 +88,7 @@ The same values are recorded in the StableSignal public hub's machine-readable A
 * [x] Screenshot path and checksum recorded.
 * [x] Sampled explorer references match displayed records.
 * [x] PulseBeacon evidence matches the public deployment registry.
+* [x] Snapshot digest and published PulseBeacon event match.
 * [x] Testnet and independence notices retained.
 
 ## Limitations
