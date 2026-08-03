@@ -25,7 +25,7 @@ Observation 0001 records the approved Pulse v0 QA capture, its bounded 20-block 
 
 ## Reproduce a recent-block capture
 
-Node.js 20 or newer can capture the same bounded metrics directly from the public Arc testnet RPC without installing dependencies:
+Node.js 20 or newer can capture the same bounded metrics and recent transaction hashes directly from the public Arc testnet RPC without installing dependencies:
 
 ```powershell
 node .\tools\capture-pulse-snapshot.mjs --output .\snapshots\pulse-latest.json
@@ -40,7 +40,9 @@ node .\tools\capture-pulse-snapshot.mjs `
   --output .\snapshots\pulse-block-54646241.json
 ```
 
-The script confirms Arc testnet chain ID `5042002`, validates block continuity and parent hashes, and calculates total transactions, mean transactions per block, and ratio-of-sums gas utilization. It stores only the RPC host name in the snapshot. `ARC_TESTNET_RPC_URL` or `--rpc-url` may select another Arc testnet RPC.
+The script confirms Arc testnet chain ID `5042002`, validates block continuity, parent hashes, and transaction hashes, and calculates total transactions, mean transactions per block, and ratio-of-sums gas utilization. It stores only the RPC host name in the snapshot. `ARC_TESTNET_RPC_URL` or `--rpc-url` may select another Arc testnet RPC.
+
+The public Pulse deployment runs this capture on a GitHub Pages schedule and serves the resulting JSON from the same origin as the interface. This avoids relying on browser access to an RPC endpoint that does not currently authorize cross-origin requests from GitHub Pages.
 
 Run its dependency-free tests with:
 
