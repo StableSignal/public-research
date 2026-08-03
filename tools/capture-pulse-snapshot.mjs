@@ -59,6 +59,9 @@ export function buildSnapshot({ blocks, rpcUrl, headSelection }) {
     if (!Array.isArray(block.transactions)) {
       throw new Error(`Block ${number} does not contain a transaction list`)
     }
+    if (!block.transactions.every((transaction) => typeof transaction === 'string' && /^0x[0-9a-f]{64}$/i.test(transaction))) {
+      throw new Error(`Block ${number} contains an invalid transaction hash`)
+    }
     if (typeof block.hash !== 'string' || typeof block.parentHash !== 'string') {
       throw new Error(`Block ${number} is missing a hash or parent hash`)
     }
@@ -69,6 +72,7 @@ export function buildSnapshot({ blocks, rpcUrl, headSelection }) {
       parentHash: block.parentHash,
       timestampUtc: toIsoTimestamp(timestamp),
       transactionCount: block.transactions.length,
+      transactionHashes: block.transactions,
       gasUsed: toSafeNumber(gasUsed, 'block gas used'),
       gasLimit: toSafeNumber(gasLimit, 'block gas limit'),
     }
