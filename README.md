@@ -20,8 +20,10 @@ This repository keeps three layers separate:
 * [Methodology](methodology/pulse-v0-methodology.md)
 * [Observation 0001](notes/0001-arc-testnet-observations.md)
 * [Observation 0001 machine-readable snapshot](snapshots/pulse-v0-2026-07-31.json)
+* [Observation 0002](notes/0002-arc-testnet-observations.md)
+* [Observation 0002 machine-readable snapshot](snapshots/pulse-v0-2026-08-04.json)
 
-Observation 0001 records the approved Pulse v0 QA capture, its bounded 20-block metrics, lookup fixtures, screenshot checksum, an independent RPC reconciliation, the verified PulseBeacon deployment evidence, and the first published snapshot checkpoint.
+Observation 0001 records the Pulse v0 release baseline. Observation 0002 adds the public-beta fixed-window protocol, a byte-identical reproduction, a deliberately limited two-sample comparison, the public explorer handoff, and the second verified PulseBeacon snapshot checkpoint.
 
 ## Reproduce a recent-block capture
 
