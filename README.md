@@ -22,8 +22,10 @@ This repository keeps three layers separate:
 * [Observation 0001 machine-readable snapshot](snapshots/pulse-v0-2026-07-31.json)
 * [Observation 0002](notes/0002-arc-testnet-observations.md)
 * [Observation 0002 machine-readable snapshot](snapshots/pulse-v0-2026-08-04.json)
+* [Observation 0003 source note](notes/0003-arc-testnet-observations.md)
+* [Observation 0003 machine-readable snapshot](snapshots/pulse-v0-2026-08-10.json)
 
-Observation 0001 records the Pulse v0 release baseline. Observation 0002 adds the public-beta fixed-window protocol, a byte-identical reproduction, a deliberately limited two-sample comparison, the public explorer handoff, and the second verified PulseBeacon snapshot checkpoint.
+Observation 0001 records the Pulse v0 release baseline. Observation 0002 adds the public-beta fixed-window protocol, a byte-identical reproduction, a deliberately limited two-sample comparison, the public explorer handoff, and the second verified PulseBeacon snapshot checkpoint. Observation 0003 records a third byte-identical fixed capture as source evidence while keeping interface integration and any new checkpoint explicitly pending.
 
 ## Reproduce a recent-block capture
 
