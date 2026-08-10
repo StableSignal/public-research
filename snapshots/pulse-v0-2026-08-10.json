@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "recordType": "pulse-recent-block-capture",
+  "network": {
+    "name": "Arc Testnet",
+    "chainId": 5042002,
+    "rpcHost": "rpc.testnet.arc.network"
+  },
+  "capture": {
+    "headSelection": "fixed",
+    "headBlock": 56319570,
+    "headBlockHash": "0x4932edf5949ea10c785ff9ed3da4f576cc52471d3c3aaa37a54d5037e9450017",
+    "headBlockTimestampUtc": "2026-08-10T18:34:42Z"
+  },
+  "window": {
+    "firstBlock": 56319551,
+    "lastBlock": 56319570,
+    "blockCount": 20
+  },
+  "metrics": {
+    "totalTransactions": 197,
+    "meanTransactionsPerBlock": 9.85,
+    "sumGasUsed": 52931190,
+    "sumGasLimit": 600000000,
+    "gasUtilizationRatio": 0.08821865,
+    "gasUtilizationPercent": 8.821864999999999
+  },
+  "blocks": [
+    {
+      "number": 56319551,
+      "hash": "0x7d6188f55e22c9554e067b7f5b79fd725af556d1490817158636138115a09693",
+      "parentHash": "0xd6923f5eacb5816efb4af810c2f5d00a3dbe008792843c2fc2052929079516e3",
+      "timestampUtc": "2026-08-10T18:34:33Z",
+      "transactionCount": 10,
+      "transactionHashes": [
+        "0xe158daccc3806b25521f035d671506c18f741ed68f03227646fd013a28bf59a8",
+        "0xcbd2bcec5c980140e3a5775d75f63181152afee01afccfaac901d93afc663d4a",
+        "0xbae8874d55d9e554d777fae1f5e169a05ccac004e7cd6712a07d7b5c2b259b55",
+        "0x2eabdaf218f20e77b2ed4096493836b83cfb417d6d2ab5be541a057d9b8d7a0b",
+        "0x12dbdffcc3ed824b6739a1e2cb662c29a5d96f3a7659b3cd3a87264f0bb89d4a",
+        "0xbaaf42058a41f28763035c1aac497d3fa629f378d6c12ca2559bdac0a3d976df",
+        "0xa95a7ed27c36837134517af178babb6e38e697b2de0e137e2548cc83ea88c473",
+        "0x688e128ce73a121bb9dfab29f4f11c3a2759bef529b85d86a5bc5550d89f821f",
+        "0xfb91e1bd43d21d3259e2acef82f75bc017f48fa9490b21da499b13c1aec79c14",
+        "0x31d941e2ed5367efeb8b4d7c5abec6360f27069a0e8f972c72f08c9494326bd2"
+      ],
+      "gasUsed": 1017107,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319552,
+      "hash": "0x3edfb28c3241696fca03a277313deb476a82df41956a955cd9d639a760e768b5",
+      "parentHash": "0x7d6188f55e22c9554e067b7f5b79fd725af556d1490817158636138115a09693",
+      "timestampUtc": "2026-08-10T18:34:33Z",
+      "transactionCount": 12,
+      "transactionHashes": [
+        "0x428edc98882ce63054eb1f285548c89bcd8cff829d60ada9c4e3a8df274bfa05",
+        "0xf41515664cdc461f458f043f8b0aa3595cb2af5a166212ffb884084cafe10547",
+        "0x38c7db8a1624f722afb19088204c5575e013a1489b3314755ea6ebcc78d003ec",
+        "0xee864a01d7285eabb58796f8695c144817f2e400173bc19de29dc803ae6ae396",
+        "0xc90bb4fc00d687b564171b68d5f1e4392a270f05e204f566f3cc490eb332ed94",
+        "0x486a58f19e923b540fac9f82f37016ed3e77df8f7f212353d4b11dd496254a94",
+        "0x39ca8837a695bf8252ec9685241e0a9833e84ad6c8fecfedd6451963de4fa596",
+        "0x1be740b4b205ca0add0d2e40fd245b2db602a06254a06343a45fc55e487dfe69",
+        "0x4d21e6cbbdded8b58b804f20ff2c774633257cbb22db93f497baa4fc79a95b7f",
+        "0x37b7643480141446d918ab582cafd900a9561ca9a69f3ba57d0656c786dc8af9",
+        "0xbc80d2a5079ff30b589ae38479f0faaf4afa9a5d61427b301cf1acae12487b4a",
+        "0x9804177a0864ccb043d1760b508f899c87be6f92effb70b394ac750c21432a25"
+      ],
+      "gasUsed": 941758,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319553,
+      "hash": "0xc74e0c0f1bca48bf19777e7424d32ad5d145aa30e0654ca57944c6c696edfcdb",
+      "parentHash": "0x3edfb28c3241696fca03a277313deb476a82df41956a955cd9d639a760e768b5",
+      "timestampUtc": "2026-08-10T18:34:34Z",
+      "transactionCount": 8,
+      "transactionHashes": [
+        "0x43a773364e6c192ab4ff6385a3f9c3a85f29de80ce8b028dc2cff9ea1ac48bd9",
+        "0x7290853ba22ca53d62a11ca046d832358256aade7b8670c576fdc35340ef8e94",
+        "0x2caedbdb3a22f123f1d5f38dadae9c886e9792f443eb1e0f192675b862a3ebd0",
+        "0xec79e6bfc652d6e4e6ebc4b42c4164440964dc6cd204e15241375fc47cccc0c2",
+        "0x6328966ad080d5f4a8a82341942e9056f84e3ba4f946b172ac09b20872b11a64",
+        "0xeb8042541ded5f3e5397148dad5234c02670607a15df14b8bf7edd4a6c694ad6",
+        "0x2f872e677418d2c4b16d917b69d8cb6aadcc13e65664617cf2bfb605c15494de",
+        "0x0fcde60636c5a496b6af2f9b56f243daf2e709939ac4c2d0315d769f71cfdf35"
+      ],
+      "gasUsed": 4903534,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319554,
+      "hash": "0xdcf50b4489789746311da3896465a296e3d793f34220cdf27071ab1a4407d7e2",
+      "parentHash": "0xc74e0c0f1bca48bf19777e7424d32ad5d145aa30e0654ca57944c6c696edfcdb",
+      "timestampUtc": "2026-08-10T18:34:34Z",
+      "transactionCount": 10,
+      "transactionHashes": [
+        "0xb39c1ed59934b52053034e31e6218cba6ee6736f99fcfbe2a72b14b6b9b52f06",
+        "0xa920c0db47e37bf02eebddbdea669d5ae153e8aabb779f70818888fa1cb47ee9",
+        "0xe47f043717c2a2fc8aa60acc5c78484bafb1977724d7ca14a3be13cd76700e0d",
+        "0x7719c1bcf2b9ecab88cf0b36fcee87405ab8ccbfb9b3d973e71d7ad2f5465b91",
+        "0x67308692293905507fd8f35c0f4713367ff28c73851ddb349da8d2b72f4d0350",
+        "0xf427ecfc77a007eb63a7c7d4de526fa2f2e35707e5bd5caed2eeff705904c803",
+        "0x6ea40cbbab76410615db23adcf7e922e35f106d2ea2286a0bcb474d10ac1a708",
+        "0x574563f0239f7d1a025678996f1f4b2ce98e1888cc1f2511132d5fb03c8a620b",
+        "0xb707092c776bbf79c8e3e89b9e57544ea7130893cda042920afc690d6532d42b",
+        "0xc32566d6bc74e30a27fb548b8d638ac9eaf4a1e8b69a04e02c6e29a3b3fa1000"
+      ],
+      "gasUsed": 1169652,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319555,
+      "hash": "0xccdc23348fa5b0e6841f54ef0e1b4767e401ef1ea1115276dc05247167edb0d7",
+      "parentHash": "0xdcf50b4489789746311da3896465a296e3d793f34220cdf27071ab1a4407d7e2",
+      "timestampUtc": "2026-08-10T18:34:35Z",
+      "transactionCount": 9,
+      "transactionHashes": [
+        "0x3ccf3d24f172949bdee2cbd56da2ed8b797241e5b29a8ea85858c7f45a9e1ed9",
+        "0x97e898ecb68f904cb88f920eb8dd86d68a714476a72bdd2cdc473eb963da4db1",
+        "0xb51dc3843295b4f9f175b42733ce549342aa899b8d42ab6168b51cbd2194558c",
+        "0xc7d2046d66d1e9b24a841e6c5af567cb0a2dcb6f286f671db681af4f1c0c8965",
+        "0x5a45fe8851b63196732c314ea79028ae4243a8c6f822cae7768a25f836a5072f",
+        "0xc0b082d037050bc8bcb5d1acfbbd62fc552184d102c6fd50e9a456c1a40bb927",
+        "0x1bc0304ab6384ae45fbc7f5dba0bd13d4162c838d2587b23fd614174fc0a45a2",
+        "0xb6fe356bb4799e4e7dd5c5d36500cb792839c68a950d4272105801b7822b3703",
+        "0x3bcde38ece6e8198707a69653cc961bc37616383885d33afac3e9b54e2d53bda"
+      ],
+      "gasUsed": 1251661,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319556,
+      "hash": "0x7a4a3e89ab342fae92e0866ab5381449801491f7e1d9f998cc586d090b2baa5b",
+      "parentHash": "0xccdc23348fa5b0e6841f54ef0e1b4767e401ef1ea1115276dc05247167edb0d7",
+      "timestampUtc": "2026-08-10T18:34:35Z",
+      "transactionCount": 9,
+      "transactionHashes": [
+        "0x8cf677fd39a1e8a5fecef212048191ef0394677b5aa5df2481d4e971803461eb",
+        "0xb89db2d0eb3f808937c539e065cc47c9fb3307e6d189bfe6e45e87e1e7d68ba6",
+        "0xf17c9ee38e8f8db2bb5fc4bf43fe55f25223440f819648502ff38bcf5fbc0772",
+        "0x20e4ba351f1c9bed6874a5cc0cf2c3fe1b25a376f24c197a93496ab2b314a0b1",
+        "0x72d245b8769abbe3dabbc2838a2b22343c14aa4d02e592fb81c04e16017502ea",
+        "0xed02db7c07a02962b1f68ab5d912f2b986779a13467fd5abb07f3cc5809c918e",
+        "0x605478d89608ccb7c1c047d7b7f34df2eb9d9579571c4fe5eccb4d722c448756",
+        "0x65231368f7a098bd82c2375aa3eead8afda1c69ec88c3bd50c3af0ad65e42025",
+        "0xd1ee2d03b727bd32159bc4067f1ccf7dd665f0cddfba0e40b50d1c99ce1a21ee"
+      ],
+      "gasUsed": 5207867,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319557,
+      "hash": "0x18dd64ef81bcedea2d2d62c65311c641a146c6082310a0b276199ba4335b5fb4",
+      "parentHash": "0x7a4a3e89ab342fae92e0866ab5381449801491f7e1d9f998cc586d090b2baa5b",
+      "timestampUtc": "2026-08-10T18:34:36Z",
+      "transactionCount": 8,
+      "transactionHashes": [
+        "0x07bf5352ba0068b91d1bef150eaa54954d799b47033fa33ceb15e9f4c6da0e81",
+        "0x2ca9fea3caadd0c171c5fe153d9e8b10eff92bd62948088efcbe5e73db7122c4",
+        "0x83ec0a0fd323761aa9b60cdbb19a06a8bf4f9d14fe749cc07aba70394658f635",
+        "0x67e8f3b805bb7b6d9dcd4aeeeb5b67ae0013345d2a8eb18234200637b110419f",
+        "0x124acc2bdfca68d1d7dde73bb7fc9d2cfb0bd635ec9b65c43df106e4a56cf3ff",
+        "0x9026a215810301583ce3505bfd9fa83c8bfeba3ec77849d7c897c11b08893ed7",
+        "0x987880189931727b07816849753d4d1bf4ee8862146997ff95f3b6e03847e8d5",
+        "0x1123831a962f02f3188dc5ef2a0d0efa6d5f620f864747a771f8491fe879042c"
+      ],
+      "gasUsed": 2420736,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319558,
+      "hash": "0x4691231030aa30441116bb3bd5622b8111975f286ca93f64fe2a2c2c1b0ccbc5",
+      "parentHash": "0x18dd64ef81bcedea2d2d62c65311c641a146c6082310a0b276199ba4335b5fb4",
+      "timestampUtc": "2026-08-10T18:34:36Z",
+      "transactionCount": 7,
+      "transactionHashes": [
+        "0x3745fa402f77c3359353dadae3c49f29d83de3a5e1831c0bb7d926088265b50f",
+        "0x54af871ac0fe2cf9d786ae0595cfa135d5f68097f01f9b0b304a136b9043bcf2",
+        "0x99ec3fc06e334c748bcaf4643938912acb8324d28f8dd096bd6ca252015bca50",
+        "0xa26800adcc9622b829b55b3ca2295049634330f9e7e60231845a421afa845572",
+        "0xb786c54e8ea284eb8de72e4f51639e976a85c95beda49fbf80d5440dcd5db845",
+        "0x17320cc8e4d9dce9e29ca58d9d61735552fe4d5b0113ab6cbbe9e3e6e0ce2167",
+        "0x5e6e30dc3b4d20a24c0e70cd8192ac7e8ee6fceccc7dfa893abca690484d65cb"
+      ],
+      "gasUsed": 1190977,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319559,
+      "hash": "0xa8354d7c86a00b503ed0ae541c1ea95d7e5688eafae346ac959e8c5ec347fc0d",
+      "parentHash": "0x4691231030aa30441116bb3bd5622b8111975f286ca93f64fe2a2c2c1b0ccbc5",
+      "timestampUtc": "2026-08-10T18:34:37Z",
+      "transactionCount": 12,
+      "transactionHashes": [
+        "0x5417aa2398738b6315d6884c3ba4b6517e0b0b87a755783f8de57b967e598045",
+        "0x5b9cb65ed7c5bd7cb63402a17348d5bdd66d87aa26f9e69e484f7ba3926f1c7f",
+        "0xd0d5c8076258bbb3f0e850acc91075a7acf3436add469510a000114049200ec7",
+        "0xe387efe2c49185282499725d7ac91d9956ade2ef474303cc3f00cfa47f255f03",
+        "0x05c58fdc6575a25cd19e0538b97f4cc4c600cefac0529d89daa39291c2f23f79",
+        "0x71ae38243ce309cbeea011c38744d7f62493d1f69acfaacf5f698c630c12aa8f",
+        "0x9ea046903e7bfd7d99a6485d8bdc3ed6f38fe67e308310dd4f96ff0d5b4677d5",
+        "0xdd42a118e2f4e5cc576f69ed75eb638507c944240dfcd54d841211be9bf0a24e",
+        "0xc888bd47c3f94b5eb2c4396edb03e3c663f7835b09b6f2d44489173cc6b2d4bb",
+        "0xd668d7ba2e8bec9edbb9fd019913268b7a7937ab4d1ed0cd184ad5ee62865d1f",
+        "0x9881774d8c7ff1c5a27e02f7ded0e6cdea3129a3f6e715d3d8cbacccd52fadf9",
+        "0xa38030475b28f476682d4a0cf332979c5d192ef67f34c6cf291f9574d93d244d"
+      ],
+      "gasUsed": 4715151,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319560,
+      "hash": "0xd2d9880efb3f531185a3b35c25afed6d13f4e2bd96f934419bca4c3bde0989ed",
+      "parentHash": "0xa8354d7c86a00b503ed0ae541c1ea95d7e5688eafae346ac959e8c5ec347fc0d",
+      "timestampUtc": "2026-08-10T18:34:37Z",
+      "transactionCount": 7,
+      "transactionHashes": [
+        "0x6964919f443c59972bcdaec40a7afc302081ae6762ded4e6703216469e728cb7",
+        "0x1e41a834df80e08fab6440e2b00b703487ad4311b1acdb84b233940291d29e86",
+        "0x78c054e8fd8c1f3ec2565b584cd94d0b70c654b8e4e5543ffca3627d936688b8",
+        "0x1ce607a7cc7070dd95095bb0ec5d2f2c9e5c0d96c7a45728fe3999302b2fcf1d",
+        "0xe9d841c448ccce2400a9a1f986d700b395eb1460436f7b20aacd86843ee5deaf",
+        "0xf0114326965d36d640efe189f14be4539dd38e7ff728afd0813aa903deff5bf7",
+        "0xc51b915944bcdfa3f2567fccbbecd2585532e521d07d3c76a7dd653354a039f2"
+      ],
+      "gasUsed": 776884,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319561,
+      "hash": "0x9a1e39dc76679c0d2ba6c14674196d62fe8ebac35b5aa66baf9296ef900c42f5",
+      "parentHash": "0xd2d9880efb3f531185a3b35c25afed6d13f4e2bd96f934419bca4c3bde0989ed",
+      "timestampUtc": "2026-08-10T18:34:38Z",
+      "transactionCount": 10,
+      "transactionHashes": [
+        "0xb148acf8855c96fe98f0a237c9000bc3e0da56387d6b5476f1d5235ec2ba37aa",
+        "0xf4bb85d558a18ce9e3b0d3864e1707eb9dc2cdc0c23d165753bd31552a7b6283",
+        "0x9aa334f24be319b67604765498f61b120ae81e91ef0fe0ffcd064bd9341cd046",
+        "0x5ee7d24e2d369a2c50278287433511dfdba0ef0de307a14d1b861d5779e6a5ff",
+        "0x223814c9664d11be7d7c68e1ad69c06dc78a5e01bef08871724baea23a3ea2f3",
+        "0x74a797413abb7f3075232cf9640b660dea403f24127a93fe9414c8b6eb774ab5",
+        "0x5ea56adba3b1b303b94170e935855bbd8186c640613ae8a9a6294127eb3446fa",
+        "0x34eeefaacb07dbacc8731f296b3ce302115b8d13818c797fe78d5d66951a73a8",
+        "0xd023e493da7d1c7b5638451e52b9b5a21e168b8d5022035ad741abe29f48e47f",
+        "0x99ef517f9da271a8adb8fdeb0fb07acbddfce361b107def7cc37bf5142c370f8"
+      ],
+      "gasUsed": 6810257,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319562,
+      "hash": "0xb5132f23c6d68289e675db9801aa8bfd284897e56cdbbc93ad69a96b5f1ce8b7",
+      "parentHash": "0x9a1e39dc76679c0d2ba6c14674196d62fe8ebac35b5aa66baf9296ef900c42f5",
+      "timestampUtc": "2026-08-10T18:34:38Z",
+      "transactionCount": 9,
+      "transactionHashes": [
+        "0xa4b9059df073b2a93b120e1656b412f6df92a184a62306d22112b14b115772e0",
+        "0x23c8a83ace7c8b246960b344b2cf710754ff03b26087c32196c589b9466cde80",
+        "0x8ec3774ddf67021595d2724fade8f016f93b9cffd3c0953de8735c5cb51a9359",
+        "0x9bc3cb74d1371b66b36996d5384893ee71d1410ac601b9882b277403aacf644f",
+        "0xb1bc3f591ddb30b69c47658818a76c5d78e9e984059cf44d79f2e3de815ff230",
+        "0x36af22af2a2a4150e127ff5c15d131c9e54660bfd9652aacffa33610bc6cdfa7",
+        "0x6e213f194867fec1440fc778e447387fc608ebd237dd06f914d76191d6f20554",
+        "0xddeafd294fda1fb2afdb89e8f02aaf09175b6e2cb279ca602dd4cc7ec9581170",
+        "0x1bf04293dcfdf6ef0122707f8eb3f17b16753e2192af63535133d0bed9983bdf"
+      ],
+      "gasUsed": 1579648,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319563,
+      "hash": "0x3407df95b583bebffdd0c6b4ff9feb66d448a44eacfdcd7a7c42aeb782bdf851",
+      "parentHash": "0xb5132f23c6d68289e675db9801aa8bfd284897e56cdbbc93ad69a96b5f1ce8b7",
+      "timestampUtc": "2026-08-10T18:34:39Z",
+      "transactionCount": 12,
+      "transactionHashes": [
+        "0xf9e1f4e87be218b4b8d0b027ad6f3bfc561bcd3829c008c0eb2d28023a9cd871",
+        "0x4114528768519b57ba256ae189b4f75aeed64e653a904beacfd349bb845c4a6e",
+        "0xf04b71e5e574019a946aeb7a81368a191ac20e8333500b56587485fe68b60446",
+        "0x0d5cbf6151259d3c5617e9a9937f2b999cb963b6d7d207388fcf7ae7b9bf7239",
+        "0x61296e6d3d97ab1505dee540135439ef785f57799899e94292af8607d62e7aa2",
+        "0x0acc51139d6734473adb4d70e6fb3e085a0d46cac16ef0a2a541a0a310bf97f7",
+        "0x29c667d023dd6608c1f4fdd6de2d9cd250a4164160da6831ed3b2efcad987882",
+        "0xeb53fa3d90a4f17c2c9b80ea372f74525d3a7e2ebd3bbe2ec3471ce465b04ee3",
+        "0x70bb4e4ad1bc8a12048d7426fce33b3b9e47ecb94397ca588eb74726a09dca36",
+        "0x10714366295ccb241f0a2e27c4c95546ae63185bc9e2c562b3c12a2478ecafc5",
+        "0x7d96af4fd560eb14f68f611b9817955d2a282213beab67a120c8a33781a633e9",
+        "0x72522f16edb77499ed461cc8871f4863540745b4a3ee1f022704e559114f039a"
+      ],
+      "gasUsed": 1111972,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319564,
+      "hash": "0x04ef71c6a5a54fd6ee61356d540e53035714dd9dfc11e0b71ed1466c0d392791",
+      "parentHash": "0x3407df95b583bebffdd0c6b4ff9feb66d448a44eacfdcd7a7c42aeb782bdf851",
+      "timestampUtc": "2026-08-10T18:34:39Z",
+      "transactionCount": 15,
+      "transactionHashes": [
+        "0x57e669922bcfb2eb46b89ac9e446d3fcf18fba34ee2387b40e08636e0e94cacd",
+        "0x5ca10c2cc9d331fe4100dd03b0ccc53610d0fd9c820e0217e674c3f74289ad3f",
+        "0xd8122deea5751408a66736a4c7b30cff5b0492b65733becfa9b44c4265bef7b9",
+        "0x5d658758099a45a4484d4ec9ca5efbd996de06c32340951bdd1aca07f9952adc",
+        "0xc74f704bceaa09972b136cbe7782a80e6cb1d8888b8335e99e9ac700519a2425",
+        "0x22bdf6b4d62b9c458ba0709fa7fc916e928abeb223ee0bca959f1300836ee16a",
+        "0x925ab53c68f4febc93ce7a272e0fda10411d0983972123422b5be53c76c0c986",
+        "0xa4a335b33d6116f8e7e044c43eefaeaa14897b9a5e1a0af32305828f8ce71550",
+        "0x1440dc7486e69c81a8d71477a9b0ba5877948a516d526e01616e2188b36f0c0f",
+        "0x002be6b4fe622a3cb3e80983cb6ee0a91ba78a46d5ebff762701437e408bbbc4",
+        "0xed6a42a1def90a0cd8e4e960c8427f4e2352584846029b0b8eea319dfdfb80ce",
+        "0xbbe768ed8b91f715095de7a05482226c2113bab4a46177fd3b0e2f7400e328ab",
+        "0x6d807161593fade40a037ff518a501e42d78454576f4184ac594b573e65a77e9",
+        "0xd1d66806880a5eefee2288c9e9f0a56253f7e2d2f016f1bb925cfd9e00c237ee",
+        "0x28f9b97d1ad2e10927f4830fae199be7799a1f10d95edbff7405cb79138739ed"
+      ],
+      "gasUsed": 5905115,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319565,
+      "hash": "0x34ce99b53bf4d910bbedaf72fc1e1959f1cc124b45ee2fb2ed0e15b2545e93b6",
+      "parentHash": "0x04ef71c6a5a54fd6ee61356d540e53035714dd9dfc11e0b71ed1466c0d392791",
+      "timestampUtc": "2026-08-10T18:34:40Z",
+      "transactionCount": 14,
+      "transactionHashes": [
+        "0x92fb11e06c90cd812bd5ad2ab71ceee6103a669c8fd01594e52bcf15241ff8ee",
+        "0x68adcccea346fb4f712a32bf32ac0c12360822e7d5a4ba324732080be8c1fb14",
+        "0xfd78fc154a38c40bf250fe6fe83d2ab381a1c72a7cc6d50b98907369ffb63b99",
+        "0xe0a3b0f76ed37f9d35799bbe5c907531884a1d62bda884e7c9eb96f620f4464b",
+        "0x3c3d46aca4c9b117f3c8d1f975f1dbf961e8918ef4f67fba3dac385c0193b248",
+        "0x1262045e23c912a1979dd1d0eb1b138ea05200b07224d466ca652a04b2cf03eb",
+        "0x63d5f25bf4936a037b8dfd25e7ea4efe5e44370d7a07f99d443a6553140d7aed",
+        "0x8b399b6a741f5e864235e4bacfb6f027b2bc5cc7b3ed27f285517eda1338a3d2",
+        "0x8e375454f581f541f5db088915d9acfea5155756b95865af2cb0d8d6f9d7d9f6",
+        "0x34177287fbd285c7caffb1cf961d36aac113514bb0602b5e5e0ee366127a5c18",
+        "0xb5a03befbfec19adb3c530c2cdf73866d1e869e1f83ebb6a3837d0b383931f16",
+        "0x00e9b6423d5a8cda5b31dc24800da5b9742f35f98c0f39a714c0bd89823fcdad",
+        "0x2f78417aaf966a96921d1378a4bd8c27cfd61746f3d06796067876c9fc072c85",
+        "0xf77b86ae1b8fb4cacacadc36abb2030256520f920c964d0e33736cc087c51376"
+      ],
+      "gasUsed": 986433,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319566,
+      "hash": "0x537a4a8b81d92deb166aae732878350cc8602252a0c2c44b98b9532a47dab4a7",
+      "parentHash": "0x34ce99b53bf4d910bbedaf72fc1e1959f1cc124b45ee2fb2ed0e15b2545e93b6",
+      "timestampUtc": "2026-08-10T18:34:40Z",
+      "transactionCount": 6,
+      "transactionHashes": [
+        "0x77de6ba7e26e5ea7f46086cf62fc262810e77a94082f59ee0ecaa1d29f4199ab",
+        "0x80e33dacca17a186a65a0b48339420fb78d62584ec53320a2c51502538cbe985",
+        "0xc05508ef3de071a0fe3646acf74dfe51505853796ddc28e5764f28b014a56406",
+        "0xe3331fd296d71bcde75169ed266ea5479f7db707c5c4eb0c2446d366b0b5982a",
+        "0xbb4ca0dc65864dc43deb5a5beb9f016111d2a46ab12989babce2e2c1e537df4b",
+        "0xa5b7e92e77668141c3f34f594b3b9abf0d8f06a1711c737c8e4eed342c32b6eb"
+      ],
+      "gasUsed": 507874,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319567,
+      "hash": "0xf46092efa12e7ea83ab184aeb55a2351e8706852098ba1e165b5a6dd7d43b7d7",
+      "parentHash": "0x537a4a8b81d92deb166aae732878350cc8602252a0c2c44b98b9532a47dab4a7",
+      "timestampUtc": "2026-08-10T18:34:41Z",
+      "transactionCount": 11,
+      "transactionHashes": [
+        "0xf273d6c01cb1219349421c90fcf0eb8a1ac8dc04192a8dfb6f4d8bf62c84ac84",
+        "0xc2ed34bc012b4912f2496a77fab3f3e536da965dc04a6e54cdd9c74b580ee297",
+        "0x013a906ce222ebd99fcea89eb8355096267449149228031b1ac640e8f268d1e5",
+        "0xcc8777346beb911ec73db33d9d3f5d36c38ff2ca237cf0118ae3302a250144ab",
+        "0xcb5c7f506f2cc885495ec586026fedbd019f7354c95724c53057aaa98d982e11",
+        "0x11460f371d6b6f35e783df7195e7e5a79fd63639954c0e20190004a309a0dbcd",
+        "0x2b51908c43504ff41b23a79c4523d2ccaac5cfbf55dc4d2857d96aad10294fbc",
+        "0xcbcd0c365cf8ac8de3182a4cde39dc4a5339205829e84584e6f194cb8a3381af",
+        "0x4884405cce16a19fbd179c32eaf60c425cf6abd04b2f42284ffb0ed842ad8704",
+        "0x1f3d030acd1bbddfb0909aa7e9b3ea1e78e428957c40e2e72fb41915170a0f55",
+        "0x474adc44d0949ead7a01f91335e8b4fd2b433e74ed4a42b4bc1f79f42b966541"
+      ],
+      "gasUsed": 5274128,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319568,
+      "hash": "0xf43d780c13e6b00c020f8ede83bc4e0376a84eb5e86b5f7b18fba98602f47d09",
+      "parentHash": "0xf46092efa12e7ea83ab184aeb55a2351e8706852098ba1e165b5a6dd7d43b7d7",
+      "timestampUtc": "2026-08-10T18:34:41Z",
+      "transactionCount": 9,
+      "transactionHashes": [
+        "0xe753856a79b9b22bd1742b2c1235922f1a06fa06e4c9c05e37509888b2c299a8",
+        "0x9eec3f9a96deee64f2daa9426e7e1c5d3071d7938a53bc08d61f9d008ac639fa",
+        "0xce26362a32683f955f5755d2331dad8cd7aadc16f027844f017cd048649f25af",
+        "0xe07987e4d1e3ed9dee6c8e3b40eda7c918d2d55daaa64c0386f1c29c974b0425",
+        "0xb24852ef23126dd305066e4bb3fd92477b3d38dc97e60015383b05338f57a0a9",
+        "0xb176ae8f476d08327c884c00c160e841d65b53b7dfa1668b964c72fa4447beea",
+        "0x4b824a91639959e8f9f9e74b0851943035276585122d4272f9b2a7ae540c6d19",
+        "0xc10a67e720f9e4a97c4397933fbbea1ed7e187d5ab0cea3da42bf312d2e444a7",
+        "0xb61d03313b9a9cdefcf6ac4ef00a627c5853edf5328a0b9f0dc20bf4a2cae6b9"
+      ],
+      "gasUsed": 913181,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319569,
+      "hash": "0x9597b430ad9079d5d7a965e87bbfee90cbc17859da7a2d0c1b2dca364e2da02e",
+      "parentHash": "0xf43d780c13e6b00c020f8ede83bc4e0376a84eb5e86b5f7b18fba98602f47d09",
+      "timestampUtc": "2026-08-10T18:34:42Z",
+      "transactionCount": 5,
+      "transactionHashes": [
+        "0xa231d384fc2267eeaadb1c1ba8d53b0492c38e95b6b3351db41ee625ecd9b887",
+        "0x84db6ea7ab4879f7a207ca83b48b77593f10a703f199b87636d4add6331451e9",
+        "0xb57984da78d6ab1392b1938d19400c87ea3148d45f9cd0bdbd80d2f70968bf23",
+        "0xddc9ac2b623eb76121f2e1856b6a3a5ba6e798cc5e2871ef14f3d8222c259a82",
+        "0xca2b6f9844fc598bab0ee560d830371fb694885304c81590b2f20d0af4ee6646"
+      ],
+      "gasUsed": 1411185,
+      "gasLimit": 30000000
+    },
+    {
+      "number": 56319570,
+      "hash": "0x4932edf5949ea10c785ff9ed3da4f576cc52471d3c3aaa37a54d5037e9450017",
+      "parentHash": "0x9597b430ad9079d5d7a965e87bbfee90cbc17859da7a2d0c1b2dca364e2da02e",
+      "timestampUtc": "2026-08-10T18:34:42Z",
+      "transactionCount": 14,
+      "transactionHashes": [
+        "0x5fbdbb62e6fa8ec3c3901dc477f0e305a8ff458f62616cf58953bf77fa6c565e",
+        "0x7aa00901021800830f6b8fdd5a12f8e5e3cf32bc1ed3b55ebbb66526f27cf457",
+        "0xcb1595b6dd65804d84a60f1aa6cb585511602f22a7873ada5c9906c9f5d85d18",
+        "0xdf7c6eb2b49368d7b45be0f0fa05400e0d0584304f72f099cd58480a72032405",
+        "0xe059e7a93787afb40330307dc71a9fa24c5a9fb3643af9f1e12eed92f79576c2",
+        "0x5505426a863ba16a8945fc4b34b6ab9344976b8623792c2abde46bff447340c4",
+        "0x199a4eef1706412958cb47b936b6a06b9e8f366b57e390fcee9fd24f11a75a91",
+        "0xae3165fdf517ae584bd12336753960d1744181b6d96b43029cb83f824cfc5d4f",
+        "0xe07b1ca0a57d2e3ab7ae5bb2846e374089826b4f84410ebb4c09e61c0cec9005",
+        "0x71d49a58cfeb02d3e3706992ba631a5fd8211c42b668359d4ff6ae9d5f9b7669",
+        "0x7e9882c6d024361ef22455a42871b15222b00a6eb9126342379453475ffff48f",
+        "0xdee737c46a95e6f7d596f8a207fe62489a9c9996afb97fab3bb6d971dec2d47f",
+        "0x9b622eb430c3b353f71ae4b3e1de7f47a63331fb71de33dda1d9905f96c2e6ff",
+        "0x2181b30a25fc4eea28f3030b3eaa8cc71ed0f1ee474e435cb87e07119142ebd2"
+      ],
+      "gasUsed": 4836070,
+      "gasLimit": 30000000
+    }
+  ],
+  "limitations": "Point-in-time Arc testnet evidence; not a historical trend or production-service claim."
+}
