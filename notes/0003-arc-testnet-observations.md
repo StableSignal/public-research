@@ -1,6 +1,6 @@
 # Arc testnet observations 0003: fixed source capture
 
-**Status:** Source evidence verified; interface integration and checkpoint publication pending
+**Status:** Source evidence and PulseBeacon checkpoint verified; interface integration pending
 
 **Network:** Arc Testnet (`5042002`)
 
@@ -28,9 +28,13 @@ The results describe one short Arc testnet window. The comparison below makes th
 | Source snapshot | [`snapshots/pulse-v0-2026-08-10.json`](../snapshots/pulse-v0-2026-08-10.json) |
 | Commit-pinned source | [`pulse-v0-2026-08-10.json`](https://raw.githubusercontent.com/StableSignal/public-research/e22b124f6b50208586c6b4133f687586e0043f41/snapshots/pulse-v0-2026-08-10.json) |
 | SHA-256 | `e0035cc135c552a5bb866ed1a2a50e73146d9fc97e02d10548071ca3e3557714` |
-| Interface QA | Pending; this is a source-only research record, not a Pulse interface release |
+| Interface QA | Pending; the verified record is not yet a Pulse interface release |
 
 The selected head was captured twice using fixed-head mode. The two files were byte-identical, including block continuity, parent hashes, transaction hashes, and derived metrics. The immutable Git blob and the bytes served by the commit-pinned URL also produced the same SHA-256 digest.
+
+## PulseBeacon checkpoint
+
+The commit-pinned snapshot digest was published through PulseBeacon at Arc testnet block `56,328,775` on `2026-08-10T19:53:44Z`. Transaction [`0x9d044e2a...ba6c5c`](https://testnet.arcscan.app/tx/0x9d044e2a8fa39abd85d48114971adac4e78f08e4c323b086bb952931afba6c5c) confirmed with receipt status `1`. The event address, publisher, digest, and URI all matched the registered deployment and source record.
 
 ## Results
 
@@ -60,9 +64,9 @@ The third fixed window contained more transactions and used more gas than Observ
 - [x] Commit-pinned bytes returned HTTP `200` and matched the recorded SHA-256 digest.
 - [x] Comparison language remains limited to point-in-time samples.
 - [ ] Pulse interface integration and production browser QA.
-- [ ] PulseBeacon checkpoint simulation, authorization, receipt, and event reconciliation.
+- [x] PulseBeacon simulation, authorization, receipt, and event reconciliation.
 
-No checkpoint transaction is claimed for Observation 0003. The source record remains useful without treating an unperformed release step as complete.
+Observation 0003 is now source-verified and checkpointed. It is not yet represented as integrated into the Pulse interface.
 
 ## Limitations
 
